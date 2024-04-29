@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fluidsReports xmlns="http://www.witsml.org/schemas/1series" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.witsml.org/schemas/1series  ../xsd_schemas/obj_fluidsReport.xsd" version="1.4.1.1">
+  <documentInfo>
+    <documentName>fluidsReport</documentName>
+    <fileCreationInformation>
+      <fileCreationDate>2024-04-28T23:37:43Z</fileCreationDate>
+      <softwareName>MUDPRO</softwareName>
+      <fileCreator>User2023</fileCreator>
+    </fileCreationInformation>
+  </documentInfo>
+  <fluidsReport uidWell="Mary_Scharbauer_B9_1502MH" uidWellbore="Intermediate" uid="6">
+    <nameWell>Mary Scharbauer B9 1502MH</nameWell>
+    <nameWellbore>Intermediate</nameWellbore>
+    <name>6</name>
+    <dTim>2024-04-28T23:00:00Z</dTim>
+    <md uom="ft">4064.00</md>
+    <tvd uom="ft">4042.00</tvd>
+    <numReport>6</numReport>
+    <fluid uid="fluid-1">
+      <type>Water based</type>
+      <locationSample>Suction </locationSample>
+      <dTim>2024-04-28T11:00:00Z</dTim>
+      <md uom="ft">2165.00</md>
+      <density uom="lbm/galUS">10.00</density>
+      <visFunnel uom="s">30</visFunnel>
+      <tempVis uom="degF">1.0</tempVis>
+      <pv uom="cP">1.0</pv>
+      <yp uom="lbf/100ft2">1.0</yp>
+      <gel10Sec uom="lbf/100ft2">1.0</gel10Sec>
+      <gel10Min uom="lbf/100ft2">1.0</gel10Min>
+      <filterCakeLtlp uom="in/32">1</filterCakeLtlp>
+      <filtrateLtlp uom="mL">100.00</filtrateLtlp>
+      <solidsPc uom="%">3.00</solidsPc>
+      <waterPc uom="%">97.00</waterPc>
+      <oilPc uom="%">0.00</oilPc>
+      <solidsCalcPc uom="%">-6.71</solidsCalcPc>
+      <lcm uom="lbm/bbl">0.00</lcm>
+      <ph>9.00</ph>
+      <pm uom="mL">0.80</pm>
+      <pmFiltrate uom="mL">0.70</pmFiltrate>
+      <mf uom="mL">1.00</mf>
+      <chloride uom="mg/L">150000</chloride>
+      <calcium uom="mg/L">1200</calcium>
+      <rheometer uid="rheometer-1">
+        <tempRheom uom="degF">1.0</tempRheom>
+        <vis3Rpm>1</vis3Rpm>
+        <vis6Rpm>1</vis6Rpm>
+        <vis100Rpm>1</vis100Rpm>
+        <vis200Rpm>1</vis200Rpm>
+        <vis300Rpm>2</vis300Rpm>
+        <vis600Rpm>3</vis600Rpm>
+      </rheometer>
+      <lime uom="lbm/bbl">0.03</lime>
+      <company>Buckeye Inc.</company>
+      <engineer>Brandon Hicks </engineer>
+      <solCorPc uom="%">-6.71</solCorPc>
+      <hardnessCa uom="ppm">1200</hardnessCa>
+      <comments>Recommended Tour Treatment:                         ****TREATMENT****
+1) Add Lime through hopper to maintain 10pH
+2) Add 1 sx Sapp directly in suction pit every connection.
+3) Add 1 Soap Stick down drill pipe every connection.
+4) Add 1 Sapp Stick down drill pipe every connection. 
+
+                    ****PRE-HYDRATED GEL****
+1) Fill premix with fresh water.
+2) Add 2-4 sx Soda Ash.
+3) Add bentonite from bulk tank to +80 vis.
+ ** Keep all storage and premix full at all times. 
+Remarks: Finished Rig maintenance &amp; picked up BHA. TIH &amp; drilled out. Ran formation test &amp; started drilling ahead. Latshaw 44 is currently drilling ahead at time of report. dumping &amp; diluting as needed with additions of lime for PH at time of report.</comments>
+    </fluid>
+    <fluid uid="fluid-2">
+      <type>Water based</type>
+      <locationSample>Suction</locationSample>
+      <dTim>2024-04-28T23:00:00Z</dTim>
+      <md uom="ft">4064.00</md>
+      <density uom="lbm/galUS">10.10</density>
+      <visFunnel uom="s">30</visFunnel>
+      <tempVis uom="degF">1.0</tempVis>
+      <pv uom="cP">1.0</pv>
+      <yp uom="lbf/100ft2">1.0</yp>
+      <gel10Sec uom="lbf/100ft2">1.0</gel10Sec>
+      <gel10Min uom="lbf/100ft2">1.0</gel10Min>
+      <filterCakeLtlp uom="in/32">1</filterCakeLtlp>
+      <filtrateLtlp uom="mL">100.00</filtrateLtlp>
+      <solidsPc uom="%">5.00</solidsPc>
+      <waterPc uom="%">95.00</waterPc>
+      <oilPc uom="%">0.00</oilPc>
+      <solidsCalcPc uom="%">-3.11</solidsCalcPc>
+      <lcm uom="lbm/bbl">0.00</lcm>
+      <ph>10.00</ph>
+      <pm uom="mL">1.10</pm>
+      <pmFiltrate uom="mL">0.90</pmFiltrate>
+      <mf uom="mL">1.30</mf>
+      <chloride uom="mg/L">130000</chloride>
+      <calcium uom="mg/L">1200</calcium>
+      <rheometer uid="rheometer-1">
+        <tempRheom uom="degF">1.0</tempRheom>
+        <vis3Rpm>1</vis3Rpm>
+        <vis6Rpm>1</vis6Rpm>
+        <vis100Rpm>1</vis100Rpm>
+        <vis200Rpm>1</vis200Rpm>
+        <vis300Rpm>2</vis300Rpm>
+        <vis600Rpm>3</vis600Rpm>
+      </rheometer>
+      <lime uom="lbm/bbl">0.06</lime>
+      <company>Buckeye Inc.</company>
+      <engineer>Brandon Hicks </engineer>
+      <solCorPc uom="%">-3.11</solCorPc>
+      <hardnessCa uom="ppm">1200</hardnessCa>
+      <comments>Recommended Tour Treatment:                         ****TREATMENT****
+1) Add Lime through hopper to maintain 10pH
+2) Add 1 sx Sapp directly in suction pit every connection.
+3) Add 1 Soap Stick down drill pipe every connection.
+4) Add 1 Sapp Stick down drill pipe every connection. 
+
+                    ****PRE-HYDRATED GEL****
+1) Fill premix with fresh water.
+2) Add 2-4 sx Soda Ash.
+3) Add bentonite from bulk tank to +80 vis.
+ ** Keep all storage and premix full at all times. 
+Remarks: Finished Rig maintenance &amp; picked up BHA. TIH &amp; drilled out. Ran formation test &amp; started drilling ahead. Latshaw 44 is currently drilling ahead at time of report. dumping &amp; diluting as needed with additions of lime for PH at time of report.</comments>
+    </fluid>
+  </fluidsReport>
+</fluidsReports>
